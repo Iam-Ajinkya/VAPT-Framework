@@ -12,4 +12,10 @@
       "msfconsole": "/usr/bin/msfconsole",
       "whois": "/usr/bin/whois"
     }
+     // Feel free to modify this configuration to suit your specific needs. 
+    // You can update the "targets" array with the IP addresses or domain names you wish to scan. 
+    // Adjust the "test_type" if you're conducting a different type of test, like "external" or "mixed".
+    // Add or change "testing_methods" to reflect the methodologies you will be using.
+    // Ensure the "authorization" section accurately reflects who has approved the tests and when.
+    // Update the "tools" paths if your tools are located in different directories or if you are using additional tools.
   }
