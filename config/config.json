@@ -11,11 +11,13 @@
       "nmap": "/usr/bin/nmap",
       "msfconsole": "/usr/bin/msfconsole",
       "whois": "/usr/bin/whois"
+    },
+    "_comments": {
+        "note": "Feel free to modify this configuration to suit your specific needs.",
+        "targets": "Update the 'targets' array with the IP addresses or domain names you wish to scan.",
+        "test_type": "Change the 'test_type' if you're conducting a different type of test, like 'external' or 'mixed'.",
+        "testing_methods": "Add or change entries in 'testing_methods' to reflect the methodologies you will be using.",
+        "authorization": "Ensure the 'authorization' section accurately reflects who has approved the tests and when.",
+        "tools": "Update the 'tools' paths if your tools are located in different directories or if you are using additional tools."
     }
-     // Feel free to modify this configuration to suit your specific needs. 
-    // You can update the "targets" array with the IP addresses or domain names you wish to scan. 
-    // Adjust the "test_type" if you're conducting a different type of test, like "external" or "mixed".
-    // Add or change "testing_methods" to reflect the methodologies you will be using.
-    // Ensure the "authorization" section accurately reflects who has approved the tests and when.
-    // Update the "tools" paths if your tools are located in different directories or if you are using additional tools.
   }
